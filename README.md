@@ -40,16 +40,7 @@ A three-state FSM that:
 - Simulates trigger pulses at specific intervals
 - Observes FSM transitions (IDLE → ACTIVE → DONE)
 - Designed for clear waveform analysis
-
----
-
-## 💻 How to Simulate
-
-1. Open in your Verilog simulation tool (Vivado, ModelSim, etc.)
-2. Compile both the module and its testbench
-3. Run simulation and view waveform
-4. Use `$monitor` output or waveform viewer to verify behavior
-
+  
 ---
 
 ## 📈Sample Waveforms and Schematic
